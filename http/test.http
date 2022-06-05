@@ -1,0 +1,8 @@
+### TEST RESPONSE FROM SERVER
+GET localhost:3000
+
+### GET ALL VTUBER
+GET localhost:3000/api/v1/
+
+### GET VTUBER BY NAME
+GET localhost:3000/api/v1/characters/Vestia_Zeta

@@ -1,0 +1,24 @@
+{
+  "name": "api-virtual-youtube",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "repository": "https://github.com/sonicname/api-virtual-youtube.git",
+  "author": "SoSmoothy <58429050+sonicname@users.noreply.github.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.11",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2"
+  }
+}
